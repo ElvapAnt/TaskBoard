@@ -1,0 +1,28 @@
+{
+  "boards": [
+    { "id": "b1", "name": "Web App" },
+    { "id": "b2", "name": "Marketing" }
+  ],
+  "lists": [
+    { "id": "l1", "boardId": "b1", "title": "To do", "order": 1 },
+    { "id": "l2", "boardId": "b1", "title": "In progress", "order": 2 },
+    { "id": "l3", "boardId": "b1", "title": "Done", "order": 3 }
+  ],
+  "cards": [
+    { "id": "c1", "listId": "l1", "title": "Create wireframes", "order": 1, "labelIds": ["lab1"] },
+    {
+      "id": "c2",
+      "listId": "l2",
+      "title": "Build login page",
+      "order": 1,
+      "assigneeId": "u1",
+      "dueDate": "2025-09-20"
+    },
+    { "id": "c3", "listId": "l2", "title": "Hook up API for auth", "order": 2, "assigneeId": "u1" }
+  ],
+  "labels": [
+    { "id": "lab1", "name": "UX", "color": "#7C3AED" },
+    { "id": "lab2", "name": "Bug", "color": "#EF4444" }
+  ],
+  "users": [{ "id": "u1", "name": "Ava", "avatarUrl": "/assets/ava.png" }]
+}
